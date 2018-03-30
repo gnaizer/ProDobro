@@ -1,5 +1,10 @@
 language: ruby
 rvm:
  - 2.5.0
- - jruby
- - rbx-3
+ 
+env:
+ -DB:postgresql
+ 
+branches:
+ only:
+  - master
